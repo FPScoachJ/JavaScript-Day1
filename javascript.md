@@ -142,5 +142,33 @@ DCStaff[0] // "Alyson"
 What is the way to get to the crown?
 `const crown = [[[[[[["crown"]]]]]]]`
 
+const user = [
+    {name: "joe", address:[
+        {name: "Destin", street: "123 Windstarr"},
+        {name: "Orlando", street: "4680  st ct"},
+        {name: "Orlando", street: "9334 Watchey way"},
+        {name: "Pensacola", street: "123 Main st"},
+        {name: "Houston", street: "123 Main st"},
+    ]}
+]
 
+## Object
+
+An object is a datatype that is defined using the `{}` and they always consist of `key: value` pairs.  
+
+```
+const student = {
+    name: "Cameron",
+    city: "Marrieta",
+    state: "GA",
+    zipcode: 30008
+    pets: ["Frenchie","Cane Corso"]
+    }
+
+student.pets[1] // "Cane Corso"
+student.city // "Marrieta"
+student.state // "GA"
+student.job // undefined
+student.job = "software dev"  this is how you add a new key to an object
+```
 
