@@ -25,7 +25,7 @@ Always always try to be clear in your code.  Clever code is not necessarily easy
 1. `const` - stands for constant.  This means that if you define something with `const`, it will not change.
 
 `const justin = "justin";`
-justin is never going to be anything else that what I defined it as.
+justin is never going to be anything else than what I defined it as.
 
 
 2. `let` stands for let. This is used if you want to make a variable that you might change the value of later on.
@@ -67,7 +67,44 @@ You define a variable by using the words `const`, `let`, or `var`, a name for th
 
 
 ### Strings
+
 Strings are anything in `""` or `''` or in javscript, `` backticks.  
 
+Strings are iterable.  It means you can iterate or go over each individual character of a string.  You can also access an individual letter in a string by its index.  Remember, indexes in pogramming start at 0.
 
+```
+const joe = "joe"
+joe[0]
+'j'
+joe[1]
+'o'
+joe[2]
+'e'
+joe[9] = undefined, because there isn't anything at the 9th index of the 10th place in this word.
+```
+
+You can do units of math on a string.  But you can only add strings.
+
+### Integers
+
+This means a whole number.  That means anything with the numbers 0-9.
+
+`let age = 0123456789`
+
+Integers are not iterable.  However, integers can have mathematical logic applied o them.  You can add, subtract, multiply, and divide.  
+
+`const sum = 1 + 2`
+What is the value of `sum`? An integer of 3.
+
+`const p = 34 * 9`  
+
+The unites of operation are `* / + -` addition, division, multiplication and subtraction.
+
+### Float
+
+Any number with a decimal is a float.
+
+`const pi = 3.14`
+
+Same math can be applied to floats however..... 
 
