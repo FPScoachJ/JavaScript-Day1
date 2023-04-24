@@ -66,7 +66,7 @@ You define a variable by using the words `const`, `let`, or `var`, a name for th
 6.  Objects
 
 
-### Strings
+## Strings
 
 Strings are anything in `""` or `''` or in javscript, `` backticks.  
 
@@ -85,7 +85,7 @@ joe[9] = undefined, because there isn't anything at the 9th index of the 10th pl
 
 You can do units of math on a string.  But you can only add strings.
 
-### Integers
+## Integers
 
 This means a whole number.  That means anything with the numbers 0-9.
 
@@ -100,11 +100,47 @@ What is the value of `sum`? An integer of 3.
 
 The unites of operation are `* / + -` addition, division, multiplication and subtraction.
 
-### Float
+## Float
 
 Any number with a decimal is a float.
 
 `const pi = 3.14`
 
-Same math can be applied to floats however..... 
+Same math can be applied to floats however..... but rounding up or down is generally something we need to add more logic to.
+
+## Boolean
+
+Is a datatype that can be only one of two things.  `true` or `false`
+
+Booleans will always equiate to "Truthy" or "Falsey". Note that sometimes that it's not as simple as the word `true` or `false`.  You might need to do the logic to determine if the value is true or false or if the logic is truthy or falsey.
+
+`const raining = true`
+
+## Arrays
+
+Arrays are sometimes called list in other programming languages.  What it means at the end of the day, is a variable that is assigned `[]`
+
+```
+const students = [
+    "Kimberly", "Ashley", "Cameron"
+]
+
+const groupOfNumbers = [1,2,3,4,5,6]
+
+const user = ["Joe", "Tomball", 77375]
+```
+
+You can access the individual elements of an array by its index.  In other words, like strings, you can use `[]` and an index, and get a single value from the array.
+
+```
+const DCStaff = ["Alyson", "Jerry", "Joe"]
+DCStaff[2] // "Joe"
+DCStaff[1] // "Jerry"
+DCStaff[0] // "Alyson"
+```
+
+What is the way to get to the crown?
+`const crown = [[[[[[["crown"]]]]]]]`
+
+
 
