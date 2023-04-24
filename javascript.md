@@ -15,16 +15,16 @@ All variables have to start with either const, var, or let and then a name.  You
 A variable name is up to you.  It does not matter what you call it as long as you are not repeating another variable name.  The best practice is to be explicit and literanl with the name.
 
 A good name is as follows:
-`const studentName = "Ashley"`
+`const studentName = "Ashley";`
 
 A bad name is as follows:
-`const b = 123`
+`const b = 123;`
 
 Always always try to be clear in your code.  Clever code is not necessarily easy to understand.
 
 1. `const` - stands for constant.  This means that if you define something with `const`, it will not change.
 
-`const justin = "justin"`
+`const justin = "justin";`
 justin is never going to be anything else that what I defined it as.
 
 
@@ -47,8 +47,27 @@ ta = "Gill"
 3.  `var` is old.  We don't necessarily use it that much anymore but it's for more complicated reasons that you need to know today.  So don't use it for now.  Don't do it.  Really.  You are asking for problems.  I won't help you.  Don't!  `Hoisting`.  Look this up when you feel confident in `let` and `const`.
 
 `var` stands for variable.
-`var teacher = "Joe"`
+`var teacher = "Joe";`
 
 You can also reassign it.
-`teacher = "Azam"`
+`teacher = "Azam";`
+
+You define a variable by using the words `const`, `let`, or `var`, a name for the variable, and then the = sign (assignment operator).
+
+`const nameOfVariable = whatevervalueyouwant`
+
+## Data Types
+
+1.  Strings
+2.  Integers
+3.  Floats
+4.  Booleans
+5.  Arrays
+6.  Objects
+
+
+### Strings
+Strings are anything in `""` or `''` or in javscript, `` backticks.  
+
+
 
